@@ -34,7 +34,7 @@ Djangoを用いたREST APIサーバーの設計・構築
 
 アルゴリズムおよびAI処理を想定したAPI連携設計
 
-PostgreSQLとの連携およびデータ管理処理の実装
+MySQLとの連携およびデータ管理処理の実装
 
 APIの入出力仕様を明確に定義し、
 フロントエンド・アルゴリズム担当と連携
@@ -43,7 +43,7 @@ APIの入出力仕様を明確に定義し、
 
 Backend：Django
 
-Database：PostgreSQL
+Database：MySQL
 
 Application Server：Gunicorn
 
@@ -70,7 +70,7 @@ Django
 
 REST API
 
-PostgreSQL
+MySQL
 
 Gunicorn
 
